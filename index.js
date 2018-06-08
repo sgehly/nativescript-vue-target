@@ -23,6 +23,7 @@ function nativescriptTarget(compiler) {
 
 module.exports = function (compiler) {
   nativescriptTarget.bind(this)({
+    ...this,
     apply (...plugins) {
       plugins = plugins.filter(p => p.constructor.name !== 'LoaderTargetPlugin');
       plugins.push(new LoaderTargetPlugin('nativescript'));

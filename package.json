@@ -1,8 +1,41 @@
 {
-  "name": "nativescript-vue-target",
-  "version": "0.1.0",
+  "_from": "nativescript-vue-target@*",
+  "_id": "nativescript-vue-target@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-C0Bqag9h0gP7mCAxYiVdphv6TiAhOfEa57d+/xFd7ZwR919BR8YoldlP7gXOzV3UUKgmgPIWEdGPtCbF6DE5VA==",
+  "_location": "/nativescript-vue-target",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-vue-target@*",
+    "name": "nativescript-vue-target",
+    "escapedName": "nativescript-vue-target",
+    "rawSpec": "*",
+    "saveSpec": null,
+    "fetchSpec": "*"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-vue-target/-/nativescript-vue-target-0.1.0.tgz",
+  "_shasum": "ed484d6b44ff83d813ad4c63be8595cd792479d9",
+  "_spec": "nativescript-vue-target@*",
+  "_where": "/Users/sgehly/GitHub/FelineAppTemplate",
+  "author": {
+    "name": "Pascal Martineau",
+    "email": "pascal@lewebsimple.ca"
+  },
+  "bugs": {
+    "url": "https://github.com/lewebsimple/nativescript-vue-target/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Webpack target for NativeScript-Vue",
+  "homepage": "https://github.com/lewebsimple/nativescript-vue-target#readme",
+  "license": "MIT",
   "main": "index.js",
+  "name": "nativescript-vue-target",
   "peerDependencies": {
     "webpack": "3.x"
   },
@@ -10,10 +43,5 @@
     "type": "git",
     "url": "git+https://github.com/lewebsimple/nativescript-vue-target.git"
   },
-  "author": "Pascal Martineau <pascal@lewebsimple.ca>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lewebsimple/nativescript-vue-target/issues"
-  },
-  "homepage": "https://github.com/lewebsimple/nativescript-vue-target#readme"
+  "version": "0.1.0"
 }
