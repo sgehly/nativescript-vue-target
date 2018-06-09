@@ -37,11 +37,14 @@
   "main": "index.js",
   "name": "nativescript-vue-target",
   "peerDependencies": {
-    "webpack": "3.x"
+    "webpack": "4.x"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lewebsimple/nativescript-vue-target.git"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "webpack": "^4.12.0"
+  }
 }
