@@ -1,27 +1,27 @@
 {
-  "_from": "nativescript-vue-target@*",
+  "_from": "git+https://github.com/sgehly/nativescript-vue-target.git",
   "_id": "nativescript-vue-target@0.1.0",
   "_inBundle": false,
   "_integrity": "sha512-C0Bqag9h0gP7mCAxYiVdphv6TiAhOfEa57d+/xFd7ZwR919BR8YoldlP7gXOzV3UUKgmgPIWEdGPtCbF6DE5VA==",
   "_location": "/nativescript-vue-target",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "nativescript-vue-target@*",
+    "type": "git",
+    "raw": "nativescript-vue-target@git+https://github.com/sgehly/nativescript-vue-target.git",
     "name": "nativescript-vue-target",
     "escapedName": "nativescript-vue-target",
-    "rawSpec": "*",
-    "saveSpec": null,
-    "fetchSpec": "*"
+    "rawSpec": "git+https://github.com/sgehly/nativescript-vue-target.git",
+    "saveSpec": "git+https://github.com/sgehly/nativescript-vue-target.git",
+    "fetchSpec": "https://github.com/sgehly/nativescript-vue-target.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-vue-target/-/nativescript-vue-target-0.1.0.tgz",
+  "_resolved": "git+https://github.com/sgehly/nativescript-vue-target.git#6843938e73cd00ccd2ef36d039cb5db0d8cd9f1e",
   "_shasum": "ed484d6b44ff83d813ad4c63be8595cd792479d9",
-  "_spec": "nativescript-vue-target@*",
-  "_where": "/Users/sgehly/GitHub/FelineAppTemplate",
+  "_spec": "nativescript-vue-target@git+https://github.com/sgehly/nativescript-vue-target.git",
+  "_where": "/Users/sgehly/GitHub/ChangeMyMind",
   "author": {
     "name": "Pascal Martineau",
     "email": "pascal@lewebsimple.ca"
@@ -30,6 +30,9 @@
     "url": "https://github.com/lewebsimple/nativescript-vue-target/issues"
   },
   "bundleDependencies": false,
+  "dependencies": {
+    "webpack": "^4.12.0"
+  },
   "deprecated": false,
   "description": "Webpack target for NativeScript-Vue",
   "homepage": "https://github.com/lewebsimple/nativescript-vue-target#readme",
@@ -43,8 +46,5 @@
     "type": "git",
     "url": "git+https://github.com/lewebsimple/nativescript-vue-target.git"
   },
-  "version": "0.1.0",
-  "dependencies": {
-    "webpack": "^4.12.0"
-  }
+  "version": "0.1.0"
 }
